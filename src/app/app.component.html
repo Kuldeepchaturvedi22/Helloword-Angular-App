@@ -3,7 +3,7 @@
     <h1>
       {{ this.title }}
     </h1>
-    <img [src]="imgUrl" alt="The BridgeLabz logo: a Bridge to Employment through a Lab Works."/>
+    <img [src]="imgUrl" (click) = "onClick($event)" alt="The BridgeLabz logo: a Bridge to Employment through a Lab Works."/>
   </div>
 </main>
 
