@@ -1,4 +1,4 @@
-.div {
+.a {
   text-align: center;
   font-size: x-large;
 }
@@ -6,4 +6,21 @@ img {
   display: block;
   margin: 0 auto;
   width: 25%;
+}
+.d{
+  text-align: center;
+  font-size: large;
+}
+input {
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+  width: 20%;
+}
+.error-output{
+  margin-left: 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+
 }

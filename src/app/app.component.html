@@ -1,12 +1,14 @@
 <main class="main">
-  <div>
+  <div class = "a">
     <h1>
       Hello {{ this.userName }} from BridgeLabz!
     </h1>
-    <img [src]="imgUrl" (click) = "onClick($event)" alt="The BridgeLabz logo: a Bridge to Employment through a Lab Works."/>
+    <img [src]="imgUrl" (click)="onClick($event)"
+         alt="The BridgeLabz logo: a Bridge to Employment through a Lab Works."/>
   </div>
-  <div>
-    <input [(ngModel)] = "userName"/> <br/> <br/>
+  <div class="d">
+    <input (input)="onInput($event)" [(ngModel)]="userName"/>
+    <span class=error-output> {{ this.nameError }}</span>
   </div>
 </main>
 
